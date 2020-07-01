@@ -30,7 +30,7 @@ a{
 .half-width{
     width: 36%;
     float: left;
-margin: 7%;
+    margin: 7%;
   
 }
 
@@ -63,7 +63,7 @@ background-image: linear-gradient(45deg, #27e5ab, #00d2cf, #00baeb, #009ef3, #2f
 .home{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/header-bg.png);
+    background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
@@ -86,7 +86,7 @@ background-image: linear-gradient(45deg, #27e5ab, #00d2cf, #00baeb, #009ef3, #2f
 .biography-section{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/biography-bg.png);
+    background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -118,7 +118,7 @@ background-image: linear-gradient(45deg, #27e5ab, #00d2cf, #00baeb, #009ef3, #2f
 #my-work-section{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/latest-work-bg.png);
+    background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -172,7 +172,7 @@ border-image-slice: 1;
 #footer-section{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/footer-bg.png);
+    background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
