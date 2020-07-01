@@ -1,4 +1,229 @@
 body{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
 }
+
+h1{
+    font-size: 50px;
+    font-family: 'Bangers';
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+span{
+    color: #1882b1;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.half-width{
+    width: 36%;
+    float: left;
+margin: 7%;
+  
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.hyperlink-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, #27e5ab, #00d2cf, #00baeb, #009ef3, #2f7ce1);
+    border-image-slice: 1;
+    transition: 1s;
+    box-shadow: 0.5px 0.5px 9px black;
+    cursor: pointer;
+}
+
+
+.hyperlink-button:hover{
+    transition: 0.5s;
+color:white;
+background-image: linear-gradient(45deg, #27e5ab, #00d2cf, #00baeb, #009ef3, #2f7ce1);
+}
+
+/* home section starts */
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+
+#name-highlight{
+    transition: 0.3s;
+}
+
+#name-highlight:hover{
+    border-bottom: 3px solid  #1882b1;
+}
+
+/* home section ends */
+
+
+
+/* BIOGRAPHY SECTION STARTS */
+.biography-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.p-highlight{
+    color: tomato;
+    cursor: cell;
+}
+
+#bio-highlight{
+    color: #1882b1;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#bio-highlight:hover{
+    border-bottom: 3px solid #1882b1;
+}
+
+#my-messages{
+    font-family: 'Pangolin', cursive;
+}
+/* BIOGRAPHY SECTION ENDS */
+
+
+
+/* MY WORK SECTION STARTS */
+#my-work-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+#work-title-highlight{
+    color: lightseagreen;
+    text-align: center;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+
+#work-title-highlight:hover{
+    border-bottom: 3px solid lightseagreen;
+}
+
+#img-container{
+    width: 100%;
+}
+
+.work{
+    width: 29%;
+    margin: 1.5%;
+    float: left;
+    box-shadow: 7px 7px 30px gray;
+}
+
+#first-work{
+border-left: 7px solid transparent; 
+border-image: linear-gradient(360deg, #4c78f2, #00a0ff, #00bef5, #00d3bd, #2be17a);
+border-image-slice: 1;
+}
+#second-work{
+    border-left: 7px solid transparent; 
+    background-image: linear-gradient(to bottom, #154323, #276b3e, #39965b, #4ac47b, #5bf49d);
+    border-image-slice: 1;
+}
+#third-work{
+    border-left: 7px solid transparent; 
+    background-image: linear-gradient(to bottom, #423beb, #6334e3, #7a2cda, #8c24d1, #9a1bc8);
+    border-image-slice: 1;
+}
+/* MY WORK SECTION ENDS */
+
+
+/* FOOTER SECTION STARTS */
+#footer-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+#footer-heading-highlight{
+    color: tomato;
+    text-align: center;
+    transition: 0.5s;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+#footer-heading-highlight:hover{
+border-bottom: 3px solid tomato;
+}
+
+#client-message{
+    text-align: center;
+}
+
+#client-message h2{
+    margin-top: 90px;
+  font-size: xx-large;
+}
+#client-message h4{
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+#client-message p{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
+
+#client-message a{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 30px 0;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+#copyright{
+    font-weight: lighter;
+    font-size: small;
+    text-align: center;
+    margin-top: 110px;
+}
+/* FOOTER SECTION ENDS */
